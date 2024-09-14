@@ -1,0 +1,35 @@
+Vamos partir da premissa de que a implementação do nosso negócio vai surgir aos poucos;
+Por ex: nos 3 primeiros meses, teremos como máximo 5000 clientes
+
+Esses clientes podem ser
+1. Aposentados
+2. Pensionistas
+3. PJ
+4. CLT
+5. Funcionários internos
+
+Vamos supor que em um formulário de interessados da solução, recebemos esse número de propostas pré-implementação:
+
+1. 2000
+2. 1242
+3. 3982
+4. 0218
+5. 1802
+
+E com os seguintes riscos de inadimplência de cada tipo de perfil, respectivamente:
+
+1. 4%
+2. 11%
+3. 6%
+4. 8%
+5. 0%
+
+Com essas estabelecidas taxas de juros como normalização a serem pagas em cada tipo de empréstimo:
+
+1. 1.5%
+2. 2%
+3. 3%
+4. 2.5%
+5. 1%
+
+Vamos fazer um modelo que remove a porcentagem de inadimplência média do valor de propostas de cada perfil, e então tenta encontrar a melhor combinação de propostas para maximizar o lucro, considerando que o lucro é a soma de todas as taxas de juros pagas, e que o risco de inadimplência é a soma de todas as taxas de inadimplência.
