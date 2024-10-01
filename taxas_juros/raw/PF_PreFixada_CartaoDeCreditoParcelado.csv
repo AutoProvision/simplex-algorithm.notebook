@@ -1,0 +1,63 @@
+﻿Posicao;Segmento;Modalidade;InstituicaoFinanceira;TaxaJurosAoMes;TaxaJurosAoAno
+1;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;PARANA BCO S.A.;2,47;34,02
+2;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;FACTA S.A. CFI;2,60;36,01
+3;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO MERCANTIL DO BRASIL S.A.;2,72;37,91
+4;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO DAYCOVAL S.A;2,87;40,42
+5;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO AGIBANK S.A.;2,96;41,86
+6;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BANCO GENIAL;4,05;61,11
+7;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;KREDILIG S.A. - CFI;5,00;79,55
+8;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;VIA CERTA FINANCIADORA S.A. - CFI;5,36;87,13
+9;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BANCO BARI S.A.;5,59;92,01
+10;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BANCO BTG PACTUAL S.A.;5,94;99,80
+11;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BRB - BCO DE BRASILIA S.A.;5,95;100,12
+12;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO BANESTES S.A.;6,05;102,39
+13;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BANCO PAN;6,50;112,87
+14;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO C6 S.A.;6,67;117,06
+15;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO BRADESCO S.A.;6,79;120,00
+16;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BANCO BRADESCARD;6,96;124,09
+17;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BANCO SICOOB S.A.;6,96;124,10
+18;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO BNP PARIBAS BRASIL S A;7,05;126,39
+19;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO BMG S.A.;7,08;127,21
+20;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;SCFI EFÍ S.A.;7,08;127,29
+21;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO DO NORDESTE DO BRASIL S.A.;7,49;137,86
+22;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;HS FINANCEIRA;7,72;144,13
+23;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;CAIXA ECONOMICA FEDERAL;7,78;145,67
+24;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO DO EST. DO PA S.A.;7,91;149,21
+25;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;NU FINANCEIRA S.A. CFI;8,05;153,18
+26;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO STELLANTIS S.A.;8,51;166,46
+27;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO DIGIMAIS S.A.;8,52;166,77
+28;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO DO BRASIL S.A.;9,28;190,06
+29;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO XP S.A.;9,34;191,91
+30;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO TRIANGULO S.A.;9,65;202,08
+31;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;DM SA CFI;9,81;207,52
+32;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO SAFRA S.A.;9,86;209,07
+33;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;ITAÚ UNIBANCO HOLDING S.A.;9,94;211,91
+34;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO CSF S.A.;9,96;212,54
+35;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO SOFISA S.A.;10,29;224,09
+36;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;PORTOSEG S.A. CFI;10,35;225,98
+37;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO SANTANDER (BRASIL) S.A.;10,37;226,72
+38;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO RENDIMENTO S.A.;10,46;229,98
+39;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;LUIZACRED S.A. SCFI;10,65;236,84
+40;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;NOVO BCO CONTINENTAL S.A. - BM;10,79;241,89
+41;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO BV S.A.;11,03;250,85
+42;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BANCO INVESTCRED UNIBANCO S.A.;11,41;265,56
+43;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO SENFF S.A.;11,49;268,77
+44;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO AFINZ S.A. - BM;11,58;272,53
+45;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;FIN. ITAU CBD CFI;11,65;275,41
+46;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;ZEMA CFI S/A;11,69;277,01
+47;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO CREFISA S.A.;11,78;280,46
+48;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;CREDIARE CFI S.A.;12,03;290,92
+49;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;HIPERCARD BM S.A.;12,27;300,86
+50;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BANCO INTER;12,50;311,05
+51;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;PICPAY BANK - BANCO MÚLTIPLO S.A;12,81;324,80
+52;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;CALCRED S.A.;13,32;348,24
+53;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BANCO DIGIO;13,49;356,59
+54;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BANCO ORIGINAL;13,70;366,73
+55;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO DO ESTADO DO RS S.A.;14,05;384,44
+56;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;NEON FINANCEIRA - CFI S.A.;14,29;396,52
+57;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;PEFISA S.A. - C.F.I.;14,88;428,28
+58;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;MERCADO CRÉDITO SCFI S.A.;14,96;433,02
+59;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;MIDWAY S.A. - SCFI;15,39;457,39
+60;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;REALIZE CFI S.A.;15,67;473,68
+61;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;M PAGAMENTOS S.A. CFI;17,95;625,40
+62;Pessoa Física;Cartão de crédito - parcelado - Pré-fixado;BCO DO EST. DE SE S.A.;19,00;706,11

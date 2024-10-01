@@ -1,0 +1,54 @@
+﻿Posicao;Segmento;Modalidade;InstituicaoFinanceira;TaxaJurosAoMes;TaxaJurosAoAno
+1;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO BANESTES S.A.;0,32;3,86
+2;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO VOTORANTIM S.A.;0,89;11,23
+3;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BOFA MERRILL LYNCH BM S.A.;0,92;11,64
+4;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO CITIBANK S.A.;0,95;11,98
+5;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO DE LAGE LANDEN BRASIL S.A.;0,95;12,01
+6;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO J.P. MORGAN S.A.;0,97;12,26
+7;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BANCO INTER;0,99;12,48
+8;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BANCO BTG PACTUAL S.A.;1,04;13,25
+9;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO SAFRA S.A.;1,07;13,56
+10;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO BNP PARIBAS BRASIL S A;1,07;13,66
+11;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO MERCEDES-BENZ S.A.;1,10;13,99
+12;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO HSBC S.A.;1,10;14,06
+13;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO STELLANTIS S.A.;1,19;15,29
+14;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO VOLKSWAGEN S.A;1,19;15,32
+15;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO SANTANDER (BRASIL) S.A.;1,21;15,59
+16;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BANCO CNH INDUSTRIAL CAPITAL S.A;1,28;16,51
+17;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO SOCIETE GENERALE BRASIL;1,30;16,75
+18;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO BRADESCO S.A.;1,35;17,43
+19;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO DO BRASIL S.A.;1,37;17,72
+20;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO INDUSTRIAL DO BRASIL S.A.;1,37;17,74
+21;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO DAYCOVAL S.A;1,39;18,01
+22;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;AL5 S.A. CFI;1,40;18,16
+23;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;ITAÚ UNIBANCO S.A.;1,41;18,28
+24;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO DO ESTADO DO RS S.A.;1,49;19,44
+25;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO YAMAHA MOTOR S.A.;1,50;19,56
+26;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO RENDIMENTO S.A.;1,59;20,87
+27;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO ABC BRASIL S.A.;1,62;21,26
+28;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO LUSO BRASILEIRO S.A.;1,65;21,70
+29;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO CREFISA S.A.;1,70;22,41
+30;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BANCO DIGIO;1,70;22,48
+31;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO FIBRA S.A.;1,74;23,06
+32;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO RNX S.A.;1,77;23,45
+33;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BANCO ORIGINAL;1,82;24,19
+34;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO DO NORDESTE DO BRASIL S.A.;1,85;24,58
+35;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO SOFISA S.A.;1,97;26,31
+36;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;OMNI BANCO S.A.;1,98;26,48
+37;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;GAZINCRED S.A. SCFI;2,08;27,98
+38;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;CAIXA ECONOMICA FEDERAL;2,08;28,05
+39;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;PEFISA S.A. - C.F.I.;2,20;29,76
+40;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BANCO MONEO S.A.;2,21;30,02
+41;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO BS2 S.A.;2,28;31,10
+42;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO DO EST. DO PA S.A.;2,45;33,75
+43;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BANCO RANDON S.A.;2,61;36,17
+44;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO TRIANGULO S.A.;2,67;37,20
+45;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;GOLCRED S/A - CFI;2,92;41,30
+46;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BCO INDUSCRED DE INVESTIM. S/A;3,00;42,62
+47;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;SANTINVEST S.A. - CFI;3,36;48,74
+48;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;FINAMAX S.A. CFI;3,68;54,28
+49;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;HS FINANCEIRA;3,73;55,10
+50;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;BRB - BCO DE BRASILIA S.A.;3,74;55,31
+51;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;SINOSSERRA S/A - SCFI;4,42;68,12
+52;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;VIA CERTA FINANCIADORA S.A. - CFI;4,88;77,09
+53;Pessoa Jurídica;Desconto de duplicatas - Pré-fixado;SCFI EFÍ S.A.;5,40;87,86
