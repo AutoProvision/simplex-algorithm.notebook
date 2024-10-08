@@ -1,3 +1,6 @@
+Uma empresa de empréstimos divulgou os dados de seus clientes dos 3 primeiros meses (teve 10000)
+
+
 Vamos partir da premissa de que a implementação do nosso negócio vai surgir aos poucos;
 Por ex: nos 3 primeiros meses, teremos como máximo 5000 clientes
 
