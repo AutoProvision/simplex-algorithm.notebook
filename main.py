@@ -1,84 +1,56 @@
 from pulp import *
 
-CLIENTES = [
-	{
-		'modalidade': 'Capital de giro',
-		'propostas_recebidas': 2051,
-		'taxa_juros': 2.13,
-	},
-	{
-		'modalidade': 'Cheque Especial',
-		'propostas_recebidas': 2242,
-		'taxa_juros': 8.16,
-	},
-	{
-		'modalidade': 'Crédito Pessoal',
-		'propostas_recebidas': 1982,
-		'taxa_juros': 6.43,
-	},
-	{
-		'modalidade': 'Crédito Pessoal Consignado',
-		'propostas_recebidas': 218,
-		'taxa_juros': 2.36,
-	},
-	{
-		'modalidade': 'Financiamento Imobiliário',
-		'propostas_recebidas': 1802,
-		'taxa_juros': 0.81,
-	},
-	{
-		'modalidade': 'Aquisição de veículos',
-		'propostas_recebidas': 1802,
-		'taxa_juros': 1.86,
-	},
-]
+modelo = LpProblem('Maximizar_Lucro_Implementacao_Gradual', LpMaximize)
 
-problema = LpProblem('Maximizar_Lucro_Implementacao_Gradual', LpMaximize)
+x1 = LpVariable('Qnt_Clientes_Capital_de_Giro', lowBound=0)
+x2 = LpVariable('Qnt_Clientes_Cheque_Especial', lowBound=0)
+x3 = LpVariable('Qnt_Clientes_Crédito_Pessoal', lowBound=0)
+x4 = LpVariable('Qnt_Clientes_Crédito_Pessoal_Consignado', lowBound=0)
+x5 = LpVariable('Qnt_Clientes_Financiamento_Imobiliário', lowBound=0)
+x6 = LpVariable('Qnt_Clientes_Aquisição_de_Veículos', lowBound=0)
 
-QntClientesCapitalDeGiro = LpVariable('Capital_de_giro', lowBound=0)
-QntClientesChequeEspecial = LpVariable('Cheque_Especial', lowBound=0)
-QntClientesCreditoPessoal = LpVariable('Crédito_Pessoal', lowBound=0)
-QntClientesCreditoPessoalConsignado = LpVariable('Crédito_Pessoal_Consignado', lowBound=0)
-QntClientesFinanciamentoImobiliario = LpVariable('Financiamento_Imobiliário', lowBound=0)
-QntClientesAquisicaoDeVeiculos = LpVariable('Aquisição_de_veículos', lowBound=0)
+modelo +=\
+	(2.13 / 100 * 18_000 * x1) +\
+	(8.16 / 100 * 10_000 * x2) +\
+	(6.43 / 100 * 15_000 * x3) +\
+	(2.36 / 100 * 12_500 * x4) +\
+	(0.81 / 100 * 13_425 * x5) +\
+	(1.86 / 100 * 8_500 * x6), 'Lucro_Total'
 
-variaveisQnt = {
-	'Capital de giro': QntClientesCapitalDeGiro,
-	'Cheque Especial': QntClientesChequeEspecial,
-	'Crédito Pessoal': QntClientesCreditoPessoal,
-	'Crédito Pessoal Consignado': QntClientesCreditoPessoalConsignado,
-	'Financiamento Imobiliário': QntClientesFinanciamentoImobiliario,
-	'Aquisição de veículos': QntClientesAquisicaoDeVeiculos,
-}
+MAXIMO_CLIENTES = 6_000
+CAPITAL_MAXIMO = 125_000_000
 
+modelo += x1 + x2 + x3 + x4 + x5 + x6 <= MAXIMO_CLIENTES, 'Total_de_Clientes_Processados'
 
-#### Calculando o lucro gerado por cada modalidade a partir da quantidade escolhida de clientes
+modelo += x1 <= 1400, 'Máximo de clientes para Capital de Giro'
+modelo += x2 <= 600, 'Máximo de clientes para Cheque Especial'
+modelo += x3 <= 1600, 'Máximo de clientes para Crédito Pessoal'
+modelo += x4 <= 6000, 'Máximo de clientes para Crédito Pessoal Consignado'
+modelo += x5 <= 3400, 'Máximo de clientes para Financiamento Imobiliário'
+modelo += x6 <= 3400, 'Máximo de clientes para Aquisição de Veículos'
 
-problema += lpSum(
-	(C['taxa_juros'] * variaveisQnt[C['modalidade']])
-	for C in CLIENTES
-)
+modelo +=\
+	18_000 * x1 +\
+	10_000 * x2 +\
+	15_000 * x3 +\
+	12_500 * x4 +\
+	13_425 * x5 +\
+	8_500 * x6 <= CAPITAL_MAXIMO, 'Capital_Total_Disponível'
 
-#### Restringindo por quantidade máxima de clientes
+modelo +=\
+	x1 >= 400,'Mínimo de clientes de Capital de Giro' +\
+	x2 >= 400, 'Mínimo de clientes de Cheque Especial' +\
+	x3 >= 400, 'Mínimo de clientes de Crédito Pessoal' +\
+	x4 >= 400, 'Mínimo de clientes de Crédito Pessoal Consignado' +\
+	x5 >= 400, 'Mínimo de clientes de Financiamento Imobiliário' +\
+	x6 >= 400, 'Mínimo de clientes de Aquisição de Veículos'
 
-MAX_CLIENTES_TRIMESTRE = 6000
+modelo.solve(PULP_CBC_CMD(msg=False))
 
-problema += lpSum(variaveisQnt.values()) <= MAX_CLIENTES_TRIMESTRE
-
-#### Restringindo por total de número de clientes interessados
-
-for i in range(len(CLIENTES)):
-	C = CLIENTES[i]
-	V = variaveisQnt[C['modalidade']]
-	problema += V <= C['propostas_recebidas']
-
-#### Restringindo a quantidade de clientes de Cheque Especial, para evitar tantos problemas logo no começo
-
-problema += QntClientesChequeEspecial <= 1000
-
-## Resolvendo a otimização
-
-problema.solve()
-
-for C in CLIENTES:
-	print(f"{C['modalidade']}: {variaveisQnt[C['modalidade']].varValue}")
+print(f"Clientes de Capital de Giro (x1): {x1.varValue}")
+print(f"Clientes de Cheque Especial (x2): {x2.varValue}")
+print(f"Clientes de Crédito Pessoal (x3): {x3.varValue}")
+print(f"Clientes de Crédito Pessoal Consignado (x4): {x4.varValue}")
+print(f"Clientes de Financiamento Imobiliário (x5): {x5.varValue}")
+print(f"Clientes de Aquisição de Veículos (x6): {x6.varValue}")
+print(f"Lucro Total: {modelo.objective.value()}")
