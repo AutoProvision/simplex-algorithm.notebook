@@ -97,3 +97,14 @@ x3 = 0
 Quando você adiciona valores ao modelo, ao adicionar no sentido de comparação (com >= , <= ou ==) eles se tornam coefficients , caso contrário se tornam o objective
 
 o método modelo.objective.value() retorna o resultado da sua operação objetivo após a definição do valor de cada variável
+
+
+
+No exemplo:
+
+modelo += 3*x1 + 5*x2 >= 100
+
+x1 = variável
+3 = coeficiente
+tudo = restrição ou constraint
+
